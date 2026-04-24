@@ -260,7 +260,7 @@ a:hover { color: var(--ud-blue-dark); }
 /* ===== Partners ===== */
 .partners {
   padding: 56px 0;
-  background: var(--light);
+  background: var(--white);
   border-top: 1px solid var(--border);
   border-bottom: 1px solid var(--border);
 }
@@ -283,11 +283,10 @@ a:hover { color: var(--ud-blue-dark); }
 .partners-grid img {
   height: 36px;
   width: auto;
-  opacity: 0.55;
+  opacity: 0.8;
   transition: opacity 0.2s;
-  filter: grayscale(100%);
 }
-.partners-grid img:hover { opacity: 1; filter: none; }
+.partners-grid img:hover { opacity: 1; }
 
 /* ===== People ===== */
 .people { padding: var(--section-gap) 0; }
@@ -309,7 +308,7 @@ a:hover { color: var(--ud-blue-dark); }
 }
 .person-card:hover { box-shadow: var(--card-shadow); }
 .person-avatar {
-  width: 56px; height: 56px;
+  width: 64px; height: 64px;
   border-radius: 50%;
   background: var(--soft-blue);
   flex-shrink: 0;
@@ -319,6 +318,11 @@ a:hover { color: var(--ud-blue-dark); }
   font-size: 1.2rem;
   font-weight: 700;
   color: var(--ud-blue);
+  overflow: hidden;
+}
+.person-avatar img {
+  width: 100%; height: 100%;
+  object-fit: cover;
 }
 .person-info h4 {
   font-size: 0.95rem;
