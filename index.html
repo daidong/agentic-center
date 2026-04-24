@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UD Center for Agentic Systems</title>
+  <meta name="description" content="A CIS-based research center at the University of Delaware focused on building, evaluating, and deploying dependable AI agent systems.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="images/ud-monogram.png" type="image/png">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#" class="nav-brand">
+      <img src="images/ud-monogram.png" alt="UD">
+      <span>Center for Agentic Systems</span>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#research">Research</a></li>
+      <li><a href="#ecosystem">Ecosystem</a></li>
+      <li><a href="#flagship">PiPilot</a></li>
+      <li><a href="#people">People</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-grid">
+      <div>
+        <div class="hero-label">University of Delaware · Department of CIS</div>
+        <h1>Building Dependable <span>Agentic Systems</span></h1>
+        <p class="hero-text">
+          A research center focused on the infrastructure, evaluation, and deployment
+          of AI agents that reliably operate in real-world scientific, enterprise, and
+          campus workflows.
+        </p>
+        <a href="#contact" class="hero-cta">Get Involved →</a>
+      </div>
+      <div class="hero-visual">
+        <img src="images/center-ecosystem.png" alt="Center ecosystem diagram showing partners, research thrusts, and outcomes">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Research Thrusts -->
+<section class="thrusts" id="research">
+  <div class="container">
+    <div class="section-label">Research</div>
+    <h2 class="section-title">Three thrusts toward dependable deployment</h2>
+    <p class="section-subtitle">
+      Our research agenda bridges AI capabilities with systems-level reliability —
+      not another broad AI institute, but a focused technical center.
+    </p>
+    <div class="thrust-grid">
+      <div class="thrust-card">
+        <div class="thrust-number">Thrust 1</div>
+        <h3>Agentic Infrastructure</h3>
+        <p>
+          Runtimes, memory management, tool integration, observability, and
+          storage-aware execution for agent systems. We build the reliable
+          foundations that agents run on.
+        </p>
+      </div>
+      <div class="thrust-card">
+        <div class="thrust-number">Thrust 2</div>
+        <h3>Evaluation &amp; Trust</h3>
+        <p>
+          Benchmarking agent reliability, auditability, human oversight, and
+          cost/latency/quality tradeoffs. We develop methods for measuring when
+          agents are safe, useful, and deployable.
+        </p>
+      </div>
+      <div class="thrust-card">
+        <div class="thrust-number">Thrust 3</div>
+        <h3>Applied Pilots</h3>
+        <p>
+          Real-world deployments in cloud operations, scientific workflows,
+          campus IT, and enterprise knowledge work. Partner-facing pilots that
+          create immediate value and new research questions.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Ecosystem -->
+<section class="ecosystem" id="ecosystem">
+  <div class="container">
+    <div class="section-label">Ecosystem</div>
+    <h2 class="section-title">Positioned to move fast</h2>
+    <p class="section-subtitle">
+      We combine deep systems research expertise with institutional
+      partnerships and industry traction.
+    </p>
+    <div class="eco-grid">
+      <div class="eco-image">
+        <img src="images/center-ecosystem.png" alt="Center ecosystem: partners flow in, research and platforms flow out">
+      </div>
+      <ul class="eco-points">
+        <li>
+          <strong>Systems research base.</strong>
+          Deep expertise in storage, I/O, infrastructure, and AI-for-systems —
+          the right foundation for agentic reliability.
+        </li>
+        <li>
+          <strong>Institutional partnerships.</strong>
+          First State AI Institute, Data Science Institute, UD IT, and
+          national-lab collaborations already in place.
+        </li>
+        <li>
+          <strong>Industry traction.</strong>
+          Wasabi partnership for agentic cloud-storage log analysis — a concrete
+          pilot with near-term deliverables.
+        </li>
+        <li>
+          <strong>Student pipeline.</strong>
+          Spring 2026 Agentic Systems course to feed projects, capstones, and
+          student research fellows into center activities.
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Flagship Project: PiPilot -->
+<section class="flagship" id="flagship">
+  <div class="container">
+    <div class="section-label">Flagship Project</div>
+    <h2 class="section-title">PiPilot — an agentic research copilot</h2>
+    <p class="section-subtitle">
+      An open-source platform that demonstrates what dependable agentic systems
+      look like in practice. PiPilot serves as both a live research tool and the
+      center's software substrate.
+    </p>
+    <div class="flagship-grid">
+      <div class="flagship-image">
+        <img src="images/pipilot-literature.png" alt="PiPilot interface showing multi-source literature search and paper memory">
+      </div>
+      <div>
+        <ul class="flagship-features">
+          <li>Multi-source literature search across Semantic Scholar, arXiv, OpenAlex, and DBLP with automated scoring</li>
+          <li>Cross-project paper memory that turns reading history into reusable local research knowledge</li>
+          <li>Integrated data analysis, publication-quality visualization, and academic writing</li>
+          <li>Extensible skill system for domain-specific research workflows</li>
+          <li>Fully open-source — built to be extended by the research community</li>
+        </ul>
+        <div style="margin-top: 24px; display: flex; gap: 16px; flex-wrap: wrap;">
+          <a href="https://daidong.github.io/PiPilot/" class="hero-cta" style="font-size: 0.85rem; padding: 10px 20px;">Project Site →</a>
+          <a href="https://github.com/daidong/PiPilot" class="hero-cta" style="font-size: 0.85rem; padding: 10px 20px; background: var(--ink);">GitHub →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Partners -->
+<section class="partners">
+  <div class="container">
+    <div class="partners-label">Collaborators &amp; Partners</div>
+    <div class="partners-grid">
+      <img src="images/ud-logo-blue.svg" alt="University of Delaware" style="height: 40px;">
+      <img src="images/fsaii-logo.png" alt="First State AI Institute">
+      <img src="images/dsi-logo.png" alt="Data Science Institute">
+      <img src="images/wasabi-logo.svg" alt="Wasabi Technologies">
+    </div>
+  </div>
+</section>
+
+<!-- People -->
+<section class="people" id="people">
+  <div class="container">
+    <div class="section-label">People</div>
+    <h2 class="section-title">Team</h2>
+    <p class="section-subtitle">
+      The center is led from UD CIS with a growing network of faculty affiliates,
+      students, and external advisors.
+    </p>
+    <div class="people-grid">
+      <a href="https://daidong.github.io/" class="person-card" style="text-decoration: none;">
+        <div class="person-avatar">DD</div>
+        <div class="person-info">
+          <h4>Dong Dai</h4>
+          <p>Associate Professor, CIS · Founder &amp; Director</p>
+        </div>
+      </a>
+      <!-- Add more team members as the center grows:
+      <a href="#" class="person-card" style="text-decoration: none;">
+        <div class="person-avatar">XX</div>
+        <div class="person-info">
+          <h4>Name</h4>
+          <p>Role</p>
+        </div>
+      </a>
+      -->
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="section-label">Get Involved</div>
+    <h2 class="section-title">Let's build the founding network</h2>
+    <p class="section-subtitle">
+      We are actively looking for pilot partners, founding advisors, and
+      collaborators from industry, national labs, and academia.
+    </p>
+    <div class="contact-grid">
+      <ul class="contact-info">
+        <li>
+          <strong>Dong Dai</strong>
+          Associate Professor, UD CIS · Co-Chair, First State AI Institute<br>
+          <a href="mailto:dai@udel.edu">dai@udel.edu</a> ·
+          <a href="https://daidong.github.io/">daidong.github.io</a>
+        </li>
+        <li>
+          <strong>Location</strong>
+          Department of Computer &amp; Information Sciences<br>
+          University of Delaware, Newark, DE 19716
+        </li>
+        <li>
+          <strong>PiPilot (open-source)</strong>
+          <a href="https://daidong.github.io/PiPilot/">Project site</a> ·
+          <a href="https://github.com/daidong/PiPilot">GitHub</a>
+        </li>
+      </ul>
+      <div class="contact-cta-box">
+        <h3>Interested in partnering?</h3>
+        <p>
+          We are looking for organizations with real workflows where agentic
+          systems can create immediate value — cloud operations, scientific
+          data pipelines, campus IT, or enterprise knowledge work.
+          Reach out to discuss a pilot or advisory role.
+        </p>
+        <a href="mailto:dai@udel.edu" class="hero-cta">Contact Us →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <p>&copy; 2025 Center for Agentic Systems · University of Delaware ·
+      <a href="https://www.cis.udel.edu/">Department of CIS</a></p>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
