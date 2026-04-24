@@ -1,6 +1,6 @@
-# DAS — Initiative for Dependable Agent Systems
+# DAS — Initiative for Dependable Agentic Systems
 
-Website for the Initiative for Dependable Agent Systems (DAS) at the University of Delaware, Department of Computer & Information Sciences.
+Website for the Initiative for Dependable Agentic Systems (DAS) at the University of Delaware, Department of Computer & Information Sciences.
 
 **Live site:** [daidong.github.io/agentic-center](https://daidong.github.io/agentic-center/)
 
