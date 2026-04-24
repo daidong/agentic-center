@@ -1,12 +1,12 @@
-# UD Center for Agentic Systems
+# DAS — Initiative for Dependable Agent Systems
 
-Website for the Center for Agentic Systems at the University of Delaware, Department of Computer & Information Sciences.
+Website for the Initiative for Dependable Agent Systems (DAS) at the University of Delaware, Department of Computer & Information Sciences.
 
 **Live site:** [daidong.github.io/agentic-center](https://daidong.github.io/agentic-center/)
 
 ## Overview
 
-A CIS-based research center focused on building, evaluating, and deploying dependable AI agent systems for science, infrastructure, and enterprise workflows.
+DAS is a CIS-based research initiative focused on building, evaluating, and deploying dependable AI agent systems for science, infrastructure, and enterprise workflows.
 
 ## Development
 
