@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>DAS — Initiative for Dependable Agentic Systems</title>
-  <meta name="description" content="DAS is a CIS-based research initiative at the University of Delaware focused on building, evaluating, and deploying dependable AI agent systems.">
+  <meta name="description" content="DAS builds agentic systems that safely and reliably automate complex scientific and operational work at the University of Delaware.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -21,10 +21,11 @@
       <span>DAS</span>
     </a>
     <ul class="nav-links" id="navLinks">
-      <li><a href="#research">Research</a></li>
-      <li><a href="#ecosystem">Ecosystem</a></li>
-      <li><a href="#flagship">PiPilot</a></li>
-      <li><a href="#people">People</a></li>
+      <li><a href="#mission">Mission</a></li>
+      <li><a href="#research">Research Areas</a></li>
+      <li><a href="#flagship">Research Copilot</a></li>
+      <li><a href="#industry">Industry</a></li>
+      <li><a href="#people">Team</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
     <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
@@ -41,192 +42,199 @@
         <div class="hero-label">University of Delaware · Department of CIS</div>
         <h1>Initiative for Dependable <span>Agentic Systems</span></h1>
         <p class="hero-text">
-          DAS builds, evaluates, and deploys AI agent systems that work reliably
-          in real-world scientific, enterprise, and campus workflows. We treat
-          agent dependability as a systems engineering problem.
+          Agentic systems that safely and reliably automate complex scientific
+          and operational work. DAS brings together systems, security, and
+          AI-for-science researchers to build accountable agents for high-stakes workflows.
         </p>
-        <a href="#contact" class="hero-cta">Get Involved →</a>
+        <div class="hero-actions">
+          <a href="#contact" class="hero-cta">Get Involved →</a>
+          <a href="docs/das-partner-brief.pdf" class="secondary-cta">Partner Brief ↗</a>
+        </div>
       </div>
       <div class="hero-visual">
-        <img src="images/center-ecosystem.png" alt="Center ecosystem diagram showing partners, research thrusts, and outcomes">
+        <img src="images/center-ecosystem.png" alt="DAS ecosystem diagram showing partners, education, platforms, projects, and publications">
       </div>
     </div>
   </div>
 </section>
 
-<!-- Research Thrusts -->
-<section class="thrusts" id="research">
+<!-- Mission -->
+<section class="thrusts" id="mission">
   <div class="container">
-    <div class="section-label">Research</div>
-    <h2 class="section-title">Three thrusts toward dependable deployment</h2>
+    <div class="section-label">Mission</div>
+    <h2 class="section-title">DAS Mission — Three Pillars</h2>
     <p class="section-subtitle">
-      Our research agenda bridges AI agent capabilities with systems-level
-      dependability — not another broad AI center, but a focused technical initiative.
+      We are building a focused technical initiative around dependable agents:
+      train students, work with partners, and turn real workflows into publishable systems research.
     </p>
     <div class="thrust-grid">
-      <div class="thrust-card">
-        <div class="thrust-number">Thrust 1</div>
-        <h3>Agentic Infrastructure</h3>
-        <p>
-          Runtimes, memory management, tool integration, observability, and
-          storage-aware execution for agent systems. We build the reliable
-          foundations that agents run on.
-        </p>
+      <div class="thrust-card mission-card">
+        <div class="mission-icon">🎓</div>
+        <h3>Student Training</h3>
+        <p>Courses, capstones, graduate research, and student fellows working on real agent systems.</p>
       </div>
-      <div class="thrust-card">
-        <div class="thrust-number">Thrust 2</div>
-        <h3>Evaluation &amp; Trust</h3>
-        <p>
-          Benchmarking agent reliability, auditability, human oversight, and
-          cost/latency/quality tradeoffs. We develop methods for measuring when
-          agents are safe, useful, and deployable.
-        </p>
+      <div class="thrust-card mission-card">
+        <div class="mission-icon">🤝</div>
+        <h3>Industry Collaboration</h3>
+        <p>Consulting, TSC projects, pilots, and sponsored work around concrete operational problems.</p>
       </div>
-      <div class="thrust-card">
-        <div class="thrust-number">Thrust 3</div>
-        <h3>Applied Pilots</h3>
-        <p>
-          Real-world deployments in cloud operations, scientific workflows,
-          campus IT, and enterprise knowledge work. Partner-facing pilots that
-          create immediate value and new research questions.
-        </p>
+      <div class="thrust-card mission-card">
+        <div class="mission-icon">🔬</div>
+        <h3>Research Collaboration</h3>
+        <p>Agent systems combined with domain science, security, and infrastructure research.</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- Ecosystem -->
-<section class="ecosystem" id="ecosystem">
+<!-- Research Areas -->
+<section class="ecosystem" id="research">
   <div class="container">
-    <div class="section-label">Ecosystem</div>
-    <h2 class="section-title">Positioned to move fast</h2>
+    <div class="section-label">Research Areas</div>
+    <h2 class="section-title">Systems depth is the differentiator</h2>
     <p class="section-subtitle">
-      We combine deep systems research expertise with institutional
-      partnerships and industry traction.
+      DAS focuses on the hard parts of agent deployment: infrastructure,
+      auditability, security, and domain-grounded scientific workflows.
     </p>
-    <div class="eco-grid">
-      <div class="eco-image">
-        <img src="images/center-ecosystem.png" alt="Center ecosystem: partners flow in, research and platforms flow out">
+    <div class="area-grid">
+      <div class="area-card">
+        <div class="area-owner">Dong Dai</div>
+        <h3>Agent Systems for System Optimization</h3>
+        <p>Agents that diagnose, tune, and explain complex computing systems.</p>
+        <div class="work-list"><strong>Representative work</strong><br>IOAgent — IPDPS'25<br>STELLAR — SC'25<br>ION — HotStorage'24</div>
       </div>
-      <ul class="eco-points">
-        <li>
-          <strong>Systems research base.</strong>
-          Deep expertise in storage, I/O, infrastructure, and AI-for-systems —
-          the right foundation for agentic reliability.
-        </li>
-        <li>
-          <strong>Institutional partnerships.</strong>
-          First State AI Institute, Data Science Institute, UD IT, and
-          national-lab collaborations already in place.
-        </li>
-        <li>
-          <strong>Industry traction.</strong>
-          Wasabi partnership for agentic cloud-storage log analysis — a concrete
-          pilot with near-term deliverables.
-        </li>
-        <li>
-          <strong>Student pipeline.</strong>
-          Spring 2026 Agentic Systems course to feed projects, capstones, and
-          student research fellows into center activities.
-        </li>
-      </ul>
+      <div class="area-card">
+        <div class="area-owner">Xing Gao</div>
+        <h3>Security for LLM &amp; Agent Systems</h3>
+        <p>Security analysis for agent protocols, cloud infrastructure, and software supply chains.</p>
+        <div class="work-list"><strong>Representative work</strong><br>MCP security — DSN'26<br>GPU cache attacks — USENIX Sec'24<br>CI/CD security — CCS/S&amp;P'24</div>
+      </div>
+      <div class="area-card">
+        <div class="area-owner">Yixiang Deng</div>
+        <h3>Agent × Science and Health</h3>
+        <p>Scientific AI for biological discovery, digital health, and closed-loop decision support.</p>
+        <div class="work-list"><strong>Representative venues</strong><br>Nature Communications<br>Cell Reports<br>npj Digital Medicine</div>
+      </div>
+      <div class="area-card area-card-dashed">
+        <div class="area-owner">Senior Advisor</div>
+        <h3>Expansion Area: Physical Agents</h3>
+        <p>Open area for agents connected to instruments, robots, edge devices, or vehicles.</p>
+        <div class="work-list"><strong>Status</strong><br>Advisor-guided direction<br>Seeking faculty affiliates<br>Seeking industry pilots</div>
+      </div>
     </div>
   </div>
 </section>
 
-<!-- Flagship Project: PiPilot -->
+<!-- Example Product: Research Copilot -->
 <section class="flagship" id="flagship">
   <div class="container">
-    <div class="section-label">Flagship Project</div>
-    <h2 class="section-title">PiPilot — an agentic research copilot</h2>
+    <div class="section-label">Example Product</div>
+    <h2 class="section-title">Research Copilot</h2>
     <p class="section-subtitle">
-      An open-source platform that demonstrates what dependable agentic systems
-      look like in practice. PiPilot serves as both a live research tool and the
-      center's software substrate.
+      Agentic systems designed for scientific research: Claude as a coworker,
+      with provenance, local knowledge, and model-choice control built in.
     </p>
     <div class="flagship-grid">
       <div class="flagship-image">
-        <img src="images/pipilot-literature.png" alt="PiPilot interface showing multi-source literature search and paper memory">
+        <img src="images/pipilot-default-screen.png" alt="Research Copilot interface with local project memory and agent tools">
       </div>
       <div>
+        <div class="product-pitch">Cowork with Claude on literature, data analysis, writing, and project memory.</div>
         <ul class="flagship-features">
-          <li>Multi-source literature search across Semantic Scholar, arXiv, OpenAlex, and DBLP with automated scoring</li>
-          <li>Cross-project paper memory that turns reading history into reusable local research knowledge</li>
-          <li>Integrated data analysis, publication-quality visualization, and academic writing</li>
-          <li>Extensible skill system for domain-specific research workflows</li>
-          <li>Fully open-source — built to be extended by the research community</li>
+          <li><strong>Provenance / Audit:</strong> trace every action, source, and generated artifact.</li>
+          <li><strong>Local Knowledge:</strong> paper wiki and project memory stay close to the researcher.</li>
+          <li><strong>Local + Cloud Models:</strong> use Claude/GPT now and connect local models when needed.</li>
+          <li><strong>Research Workflows:</strong> literature search, full-text reading, analysis, visualization, and writing.</li>
         </ul>
-        <div style="margin-top: 24px; display: flex; gap: 16px; flex-wrap: wrap;">
-          <a href="https://daidong.github.io/PiPilot/" class="hero-cta" style="font-size: 0.85rem; padding: 10px 20px;">Project Site →</a>
-          <a href="https://github.com/daidong/PiPilot" class="hero-cta" style="font-size: 0.85rem; padding: 10px 20px; background: var(--ink);">GitHub →</a>
+        <div class="button-row">
+          <a href="https://daidong.github.io/PiPilot/" class="hero-cta small-cta">Project Site →</a>
+          <a href="https://github.com/daidong/PiPilot" class="secondary-cta small-cta">GitHub →</a>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- Partners (hidden until confirmed)
-<section class="partners">
+<!-- Industry Collaboration -->
+<section class="industry" id="industry">
   <div class="container">
-    <div class="partners-label">Collaborators &amp; Partners</div>
-    <div class="partners-grid">
-      <img src="images/ud-logo-blue.svg" alt="University of Delaware" style="height: 40px;">
-      <img src="images/fsaii-logo.png" alt="First State AI Institute">
-      <img src="images/dsi-logo.png" alt="Data Science Institute">
-      <img src="images/wasabi-logo.svg" alt="Wasabi Technologies">
+    <div class="section-label">Industry Collaboration</div>
+    <h2 class="section-title">Start small, then deepen the channel</h2>
+    <p class="section-subtitle">
+      We use lightweight entry points to de-risk collaboration before moving into
+      sponsored projects and long-term research partnerships.
+    </p>
+    <div class="path-grid">
+      <div class="path-card">
+        <div class="path-number">01</div>
+        <h3>TSC / Consulting</h3>
+        <p>Contracted expert help through UD's Technology Service Center.</p>
+      </div>
+      <div class="path-card">
+        <div class="path-number">02</div>
+        <h3>Pilot Research</h3>
+        <p>A 3–6 month project around one workflow and one clear deliverable.</p>
+      </div>
+      <div class="path-card">
+        <div class="path-number">03</div>
+        <h3>Gift / Project Funding</h3>
+        <p>Support students and exploratory topics without over-scoping too early.</p>
+      </div>
+      <div class="path-card">
+        <div class="path-number">04</div>
+        <h3>Strategic Partnership</h3>
+        <p>Shared roadmap, repeat projects, student pipeline, and joint outputs.</p>
+      </div>
+    </div>
+    <div class="industry-callout">
+      <strong>Start with a concrete operational problem.</strong>
+      We define the workflow, data boundary, success criterion, and review points before building.
+      <a href="https://sites.udel.edu/technology-service-center/">UD Technology Service Center ↗</a>
     </div>
   </div>
 </section>
--->
 
 <!-- People -->
 <section class="people" id="people">
   <div class="container">
-    <div class="section-label">People</div>
-    <h2 class="section-title">Team</h2>
+    <div class="section-label">Team</div>
+    <h2 class="section-title">Execution evidence across systems, security, and science</h2>
     <p class="section-subtitle">
-      The center is led from UD CIS with a growing network of faculty affiliates,
-      students, and external advisors.
+      Each card highlights concrete work or advisory value rather than broad claims.
     </p>
-    <div class="people-grid">
-      <a href="https://daidong.github.io/" class="person-card" style="text-decoration: none;">
+    <div class="people-grid achievement-people-grid">
+      <a href="https://daidong.github.io/" class="person-card achievement-person-card">
         <div class="person-avatar"><img src="images/dong-dai.jpg" alt="Dong Dai"></div>
         <div class="person-info">
           <h4>Dong Dai</h4>
           <p>Associate Professor, CIS · Co-Director</p>
+          <div class="badges"><span>IOAgent — IPDPS'25</span><span>STELLAR — SC'25</span></div>
         </div>
       </a>
-      <a href="https://yixiangd.github.io/" class="person-card" style="text-decoration: none;">
+      <a href="https://yixiangd.github.io/" class="person-card achievement-person-card">
         <div class="person-avatar"><img src="images/yixiang-deng.jpg" alt="Yixiang Deng"></div>
         <div class="person-info">
           <h4>Yixiang Deng</h4>
           <p>Assistant Professor, CIS · Co-Director</p>
+          <div class="badges green"><span>Nature Communications</span><span>Cell Reports</span><span>npj Digital Medicine</span></div>
         </div>
       </a>
-      <a href="https://www.weisongshi.org/" class="person-card" style="text-decoration: none;">
+      <a href="https://www.weisongshi.org/" class="person-card achievement-person-card">
         <div class="person-avatar"><img src="images/weisong-shi.jpg" alt="Weisong Shi"></div>
         <div class="person-info">
           <h4>Weisong Shi</h4>
-          <p>Alumni Distinguished Professor &amp; Chair, CIS · Mentor · IEEE Fellow</p>
+          <p>Alumni Distinguished Professor &amp; Chair, CIS · Senior Advisor</p>
+          <div class="badges purple"><span>Senior Advisor</span><span>Edge / Physical AI Strategy</span></div>
         </div>
       </a>
-      <a href="https://xgao-work.github.io/" class="person-card" style="text-decoration: none;">
+      <a href="https://xgao-work.github.io/" class="person-card achievement-person-card">
         <div class="person-avatar"><img src="images/xing-gao.jpg" alt="Xing Gao"></div>
         <div class="person-info">
           <h4>Xing Gao</h4>
           <p>Assistant Professor, CIS · Faculty Member</p>
+          <div class="badges gold"><span>MCP security — DSN'26</span><span>USENIX Sec'24 · CCS/S&amp;P'24</span></div>
         </div>
       </a>
-      <!--
-        To add a team member, copy this block and fill in:
-        <a href="URL" class="person-card">
-          <div class="person-avatar">INITIALS</div>
-          <div class="person-info">
-            <h4>Full Name</h4>
-            <p>Title and Role</p>
-          </div>
-        </a>
-      -->
     </div>
   </div>
 </section>
@@ -235,41 +243,34 @@
 <section class="contact" id="contact">
   <div class="container">
     <div class="section-label">Get Involved</div>
-    <h2 class="section-title">Let's build the founding network</h2>
+    <h2 class="section-title">Help us choose the first dependable-agent problems worth building</h2>
     <p class="section-subtitle">
-      We are actively looking for pilot partners, founding advisors, and
-      collaborators from industry, national labs, and academia.
+      We are looking for founding advisors, pilot problems, and flexible support
+      for student-driven research projects.
     </p>
     <div class="contact-grid">
-      <ul class="contact-info">
-        <li>
-          <strong>Dong Dai</strong>
-          Associate Professor, UD CIS <br>
-          <a href="mailto:dai@udel.edu">dai@udel.edu</a> ·
-          <a href="https://daidong.github.io/">daidong.github.io</a>
-        </li>
-        <li>
-          <strong>Location</strong>
-          Department of Computer &amp; Information Sciences<br>
-          University of Delaware, Newark, DE 19716
-        </li>
-        <li>
-          <strong>PiPilot (open-source)</strong>
-          <a href="https://daidong.github.io/PiPilot/">Project site</a> ·
-          <a href="https://github.com/daidong/PiPilot">GitHub</a>
-        </li>
-      </ul>
+      <div class="advisor-slot">
+        <div class="slot-avatar">?</div>
+        <h3>Founding Advisor</h3>
+        <p>Technical judgment · doors · use cases · validation</p>
+      </div>
       <div class="contact-cta-box">
-        <h3>Interested in partnering?</h3>
+        <h3>Start the conversation</h3>
         <p>
-          We are looking for organizations with real workflows where agentic
-          systems can create immediate value — cloud operations, scientific
-          data pipelines, campus IT, or enterprise knowledge work.
-          Reach out to discuss a pilot or advisory role.
+          Bring one real workflow and one clear success criterion. We can scope
+          the data boundary, review points, and collaboration path together.
         </p>
-        <a href="mailto:dai@udel.edu" class="hero-cta">Contact Us →</a>
+        <div class="contact-buttons">
+          <a href="mailto:dai@udel.edu" class="hero-cta">Contact Us →</a>
+          <a href="docs/das-partner-brief.pdf" class="contact-link">Download Partner Brief</a>
+        </div>
       </div>
     </div>
+    <ul class="contact-info compact-contact">
+      <li><strong>Dong Dai</strong> <a href="mailto:dai@udel.edu">dai@udel.edu</a> · <a href="https://daidong.github.io/">daidong.github.io</a></li>
+      <li><strong>Yixiang Deng</strong> <a href="mailto:yixiangd@udel.edu">yixiangd@udel.edu</a> · <a href="https://yixiangd.github.io/">yixiangd.github.io</a></li>
+      <li><strong>Research Copilot</strong> <a href="https://daidong.github.io/PiPilot/">Project site</a> · <a href="https://github.com/daidong/PiPilot">GitHub</a></li>
+    </ul>
   </div>
 </section>
 
