@@ -576,6 +576,116 @@ a:hover { color: var(--ud-blue-dark); }
 .footer a { color: #64748b; }
 .footer a:hover { color: #94a3b8; }
 
+/* ===== Build with a Partner / Examples ===== */
+.examples { padding: var(--section-gap) 0; background: var(--light); }
+.example-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 40px;
+}
+.example-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 22px 22px 20px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.example-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--card-shadow);
+}
+.example-number {
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  color: var(--ud-blue);
+  margin-bottom: 8px;
+}
+.example-card h3 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--ink);
+  margin-bottom: 8px;
+  line-height: 1.3;
+}
+.example-card p {
+  font-size: 0.88rem;
+  color: var(--body);
+  line-height: 1.5;
+}
+.example-callout {
+  background: var(--soft-blue);
+  border-color: #bdd4ee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: var(--body);
+  font-size: 0.9rem;
+  line-height: 1.45;
+}
+.example-callout strong { color: var(--ink); }
+.example-callout:hover { transform: none; box-shadow: none; }
+
+/* ===== Affiliated Faculty banner (Team section) ===== */
+.affiliate-banner {
+  margin-top: 28px;
+  padding: 16px 24px;
+  border: 2px dashed #bdd4ee;
+  background: #fbfdff;
+  border-radius: 12px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.affiliate-label {
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ud-blue);
+}
+.affiliate-text {
+  font-size: 0.95rem;
+  color: var(--body);
+}
+.affiliate-text strong { color: var(--ud-blue); font-weight: 700; }
+
+/* ===== Asks (Contact section) ===== */
+.asks-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-top: 28px;
+}
+.ask-card {
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 10px;
+  padding: 18px 20px;
+}
+.ask-label {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--ud-gold);
+  margin-bottom: 6px;
+}
+.ask-text {
+  font-size: 0.85rem;
+  color: #cbd5e1;
+  line-height: 1.4;
+}
+.advisor-tags {
+  margin-top: 8px;
+  font-size: 0.82rem !important;
+  color: #94a3b8 !important;
+  letter-spacing: 0.02em;
+}
+
 /* ===== Responsive ===== */
 @media (max-width: 900px) {
   .hero-grid,
@@ -586,7 +696,9 @@ a:hover { color: var(--ud-blue-dark); }
   .compact-contact { grid-template-columns: 1fr; }
   .thrust-grid,
   .area-grid,
-  .path-grid { grid-template-columns: 1fr; }
+  .path-grid,
+  .example-grid,
+  .asks-grid { grid-template-columns: 1fr; }
   .hero h1 { font-size: 2rem; }
   .section-title { font-size: 1.6rem; }
   .hero { padding: 120px 0 60px; }
